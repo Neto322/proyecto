@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5AA478257359C2008A99F0 /* DetallesEventoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AA477257359C2008A99F0 /* DetallesEventoController.swift */; };
+		3D5AA48E257426CB008A99F0 /* MarvelRegular-Dj83.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D5AA48D257426CB008A99F0 /* MarvelRegular-Dj83.ttf */; };
+		3D6D4ADD2574D16200A7AA1C /* ProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D4ADC2574D16200A7AA1C /* ProViewController.swift */; };
+		3D6D4ADF2574D23A00A7AA1C /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D4ADE2574D23A00A7AA1C /* Producto.swift */; };
+		3D6D4AE12574D6C600A7AA1C /* CeldaProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D4AE02574D6C600A7AA1C /* CeldaProductoController.swift */; };
+		3D6D4AE72574F66200A7AA1C /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D4AE62574F66200A7AA1C /* ProductViewController.swift */; };
+		3D6D4AE925751BCE00A7AA1C /* DetallesProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D4AE825751BCE00A7AA1C /* DetallesProductoController.swift */; };
 		3D90F08E2559DAC100ACEB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90F08D2559DAC100ACEB8B /* AppDelegate.swift */; };
 		3D90F0902559DAC100ACEB8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90F08F2559DAC100ACEB8B /* SceneDelegate.swift */; };
 		3D90F0922559DAC100ACEB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90F0912559DAC100ACEB8B /* ViewController.swift */; };
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D5AA477257359C2008A99F0 /* DetallesEventoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesEventoController.swift; sourceTree = "<group>"; };
+		3D5AA48D257426CB008A99F0 /* MarvelRegular-Dj83.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarvelRegular-Dj83.ttf"; sourceTree = "<group>"; };
+		3D6D4ADC2574D16200A7AA1C /* ProViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProViewController.swift; sourceTree = "<group>"; };
+		3D6D4ADE2574D23A00A7AA1C /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		3D6D4AE02574D6C600A7AA1C /* CeldaProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaProductoController.swift; sourceTree = "<group>"; };
+		3D6D4AE62574F66200A7AA1C /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		3D6D4AE825751BCE00A7AA1C /* DetallesProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesProductoController.swift; sourceTree = "<group>"; };
 		3D90F08A2559DAC100ACEB8B /* peliculas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peliculas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D90F08D2559DAC100ACEB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D90F08F2559DAC100ACEB8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				3D90F0C12559DC7500ACEB8B /* Evento.swift */,
+				3D6D4ADE2574D23A00A7AA1C /* Producto.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -153,6 +168,11 @@
 			children = (
 				3D90F0912559DAC100ACEB8B /* ViewController.swift */,
 				3D90F0C32559E78400ACEB8B /* CeldaEventoController.swift */,
+				3D5AA477257359C2008A99F0 /* DetallesEventoController.swift */,
+				3D6D4ADC2574D16200A7AA1C /* ProViewController.swift */,
+				3D6D4AE02574D6C600A7AA1C /* CeldaProductoController.swift */,
+				3D6D4AE62574F66200A7AA1C /* ProductViewController.swift */,
+				3D6D4AE825751BCE00A7AA1C /* DetallesProductoController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -160,6 +180,7 @@
 		3D90F0C02559DB4B00ACEB8B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				3D5AA48D257426CB008A99F0 /* MarvelRegular-Dj83.ttf */,
 				3D90F08F2559DAC100ACEB8B /* SceneDelegate.swift */,
 				3D90F08D2559DAC100ACEB8B /* AppDelegate.swift */,
 			);
@@ -271,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D90F09A2559DAC200ACEB8B /* LaunchScreen.storyboard in Resources */,
+				3D5AA48E257426CB008A99F0 /* MarvelRegular-Dj83.ttf in Resources */,
 				3D90F0972559DAC200ACEB8B /* Assets.xcassets in Resources */,
 				3D90F0952559DAC100ACEB8B /* Main.storyboard in Resources */,
 			);
@@ -298,9 +320,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D90F0C22559DC7500ACEB8B /* Evento.swift in Sources */,
+				3D6D4AE12574D6C600A7AA1C /* CeldaProductoController.swift in Sources */,
+				3D6D4ADF2574D23A00A7AA1C /* Producto.swift in Sources */,
 				3D90F0922559DAC100ACEB8B /* ViewController.swift in Sources */,
+				3D5AA478257359C2008A99F0 /* DetallesEventoController.swift in Sources */,
+				3D6D4ADD2574D16200A7AA1C /* ProViewController.swift in Sources */,
 				3D90F08E2559DAC100ACEB8B /* AppDelegate.swift in Sources */,
 				3D90F0C42559E78400ACEB8B /* CeldaEventoController.swift in Sources */,
+				3D6D4AE925751BCE00A7AA1C /* DetallesProductoController.swift in Sources */,
+				3D6D4AE72574F66200A7AA1C /* ProductViewController.swift in Sources */,
 				3D90F0902559DAC100ACEB8B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

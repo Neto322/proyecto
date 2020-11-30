@@ -11,4 +11,6 @@ class CeldaEventoController : UITableViewCell {
     @IBOutlet weak var lblFecha: UILabel!
     @IBOutlet weak var lblHora: UILabel!
     @IBOutlet weak var lblidioma: UILabel!
+    @IBOutlet weak var viewContenedorEvento: UIView!
+    
 }
